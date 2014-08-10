@@ -1,0 +1,131 @@
+en:
+  titles:
+    application: Hours
+    accounts:
+      new: Registration
+    projects:
+      index: Projects
+      new: New Project
+    categories:
+      index: Categories
+      new: New Category
+    activities: Activities
+    entries:
+      index: My Hours
+    reports:
+      index: Reports
+  category:
+    remaining: Other
+  date:
+    formats:
+      default: '%m/%d/%Y'
+      with_weekday: '%a %m/%d/%y'
+
+  time:
+    formats:
+      default: '%a, %b %-d, %Y at %r'
+      date: '%b %-d, %Y'
+      short: '%B %d'
+  helpers:
+    submit:
+      user:
+        create: Create Account
+      project:
+        create: Create Project
+      category:
+        new: Create Category
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              invalid_email: "%{attribute} does not match organization email"
+  main_text: "Hours puts the <strong>our</strong> back into attendance management. We'll help you to take both the <em>attendance</em> and the <em>management</em> out of it, so you can focus on doing great work and having fun."
+
+  entries:
+    index:
+      new: New Entry
+      edit_entry: Edit Entry
+      date: Date
+      project: Project
+      hours: Hours
+      category: Category
+      tags: Tags
+      user_hours: "%{user}'s hours"
+      delete: delete
+      edit: edit
+      total: "Total %{hours_spent}"
+      hours_indication: h
+
+  back: Back
+  confirm: Are you sure?
+  sign_in: Sign in
+  sign_up: Sign Up
+  sign_out: Sign Out
+  account_created_successfully: Signed up successfully
+  project_created: Project successfully created
+  category_created: Category successfully created
+  no_hours_registered: "Nobody spent any time on %{project} yet"
+  project_activity_html:
+    one: "%{full_name} spent %{hours} hours working on %{project}"
+    other: "%{count} people spent %{hours} hours working on %{project}"
+  entry_created: Entry successfully created
+  entry_saved: Entry successfully saved
+  entry_failed: Something went wrong saving your entry
+  entry_deleted: Entry successfully deleted
+  entry_activity_html:
+    one: "%{user} spent one hour doing %{category} on %{project}"
+    other: "%{user} spent %{count} hours doing %{category} on %{project}"
+  hours: hours
+
+  helpful:
+    title: Need help?
+    tagline: Have a question about Hours? Need some help getting started?
+    placeholder: Write your question here...
+
+  email:
+    confirmation:
+      text: "You can confirm your account email through the link below:"
+      salutation: "Welcome %{email}!"
+      confirm_password: "Confirm my account"
+    reset_password:
+      salutation: "Hello %{email} !"
+      requested_link: "Someone has requested a link to change your password. You can do this through the link below."
+      wrong_mail: "If you didn't request this, please ignore this email."
+      info_text: "Your password won't change until you access the link above and create a new one."
+      change_password: "Change my password"
+
+  registration:
+    pending_information: "Currently waiting confirmation for: %{unconfirmed_mail}"
+    update_button: "Update"
+    hint:
+      blank: "leave it blank if you don't want to change it"
+      current_password: "we need your current password to confirm your changes"
+    edit: "Edit %{resource_name}"
+    gravatar_instructions_html: Update your profile pic on <a href="https://www.gravatar.com" target="_blank">Gravatar</a>
+
+  account:
+    invalid_characters: "contains invalid characters"
+    restricted: "restricted"
+    first_name: First Name
+    last_name: Last Name
+    email: 'Email (only people at the same domain can join)'
+    password: Password
+    repeat_password: Repeat Password
+    subdomain: Subdomain
+    back_to_website: back to the website
+
+  project:
+    table_head:
+      tag: Tag
+      hours: Hours
+
+  navbar:
+    dropdown:
+      edit_user: "Edit profile"
+
+  info:
+    here: here
+    no_projects_html: "It looks like you don't have any projects set up yet, you can set one up %{new_project_path}."
+    no_categories_html: "It looks like you don't have any categories set up yet, you can set one up %{categories_path}."
